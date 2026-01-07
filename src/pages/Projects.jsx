@@ -1,4 +1,5 @@
 import Footer from "../components/Footer";
+
 function Projects() {
   return (
     <section className="min-h-screen bg-gray-900 text-white py-16 px-6">
@@ -32,22 +33,38 @@ function Projects() {
           <p className="text-gray-400 mb-4">
             A simple todo application with add and delete functionality.
           </p>
-          <p className="text-sm text-gray-500">
+          <p className="text-sm text-gray-500 mb-4">
             Tech: React, JavaScript
           </p>
+          <a
+            href="https://to-do-list-react-sooty-three.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block px-4 py-2 bg-blue-600 hover:bg-blue-700 rounded text-sm"
+          >
+            Live Demo
+          </a>
         </div>
 
         {/* Project Card 3 */}
         <div className="bg-black p-6 rounded-lg border border-gray-800 hover:border-blue-500 transition">
           <h2 className="text-2xl font-semibold mb-2">
-            Contact Form
+            Task Manager
           </h2>
           <p className="text-gray-400 mb-4">
-            A contact form UI built using React and Tailwind CSS.
+            A task manager app to organize and manage daily tasks.
           </p>
-          <p className="text-sm text-gray-500">
-            Tech: React, Tailwind CSS
+          <p className="text-sm text-gray-500 mb-4">
+            Tech: React, JavaScript
           </p>
+          <a
+            href="https://task-manager-beta-ebon.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block px-4 py-2 bg-blue-600 hover:bg-blue-700 rounded text-sm"
+          >
+            Live Demo
+          </a>
         </div>
 
         {/* Project Card 4 */}
@@ -58,9 +75,17 @@ function Projects() {
           <p className="text-gray-400 mb-4">
             A simple calculator built using HTML, CSS, and JavaScript.
           </p>
-          <p className="text-sm text-gray-500">
+          <p className="text-sm text-gray-500 mb-4">
             Tech: HTML, CSS, JavaScript
           </p>
+          <a
+            href="https://calculator-eight-dun-83.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block px-4 py-2 bg-blue-600 hover:bg-blue-700 rounded text-sm"
+          >
+            Live Demo
+          </a>
         </div>
 
         {/* Project Card 5 */}
@@ -71,9 +96,17 @@ function Projects() {
           <p className="text-gray-400 mb-4">
             A weather application showing real-time data using React and Tailwind CSS.
           </p>
-          <p className="text-sm text-gray-500">
+          <p className="text-sm text-gray-500 mb-4">
             Tech: React, Tailwind CSS
           </p>
+          <a
+            href="https://weather-app-five-brown-hf49n9ylv5.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block px-4 py-2 bg-blue-600 hover:bg-blue-700 rounded text-sm"
+          >
+            Live Demo
+          </a>
         </div>
 
         {/* Project Card 6 */}
@@ -82,15 +115,24 @@ function Projects() {
             E-Commerce Website
           </h2>
           <p className="text-gray-400 mb-4">
-            A basic e-commerce website with product listing and simple interactions built using HTML, CSS, and JavaScript.
+            A basic e-commerce website with product listing and simple interactions built using HTML and CSS.
           </p>
-          <p className="text-sm text-gray-500">
-            Tech: HTML, CSS, JavaScript
+          <p className="text-sm text-gray-500 mb-4">
+            Tech: HTML, CSS
           </p>
+          <a
+            href="https://ecomerce-design-html-css-only.vercel.app/Shop.html"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block px-4 py-2 bg-blue-600 hover:bg-blue-700 rounded text-sm"
+          >
+            Live Demo
+          </a>
         </div>
 
       </div>
-       <Footer />
+
+      <Footer />
     </section>
   );
 }
